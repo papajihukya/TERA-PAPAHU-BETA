@@ -612,11 +612,8 @@ def send_welcome(message):
             f"/packet - Set packet size\n"
             
             
-            f"और हॉ बाप बाप होता है बेटा बेटा🥶\n"
-            f"और हॉ बाप बाप होता है बेटा बेटा🥶\n"
-            f"और हॉ बाप बाप होता है बेटा बेटा🥶\n"
-            f"और हॉ बाप बाप होता है बेटा बेटा🥶\n"
-            f"और हॉ बाप बाप होता है बेटा बेटा🥶\n"
+            f"और हॉ बाप बाप होता है 🥶\n"
+      
         )
     elif is_admin(user_id):
         balance = get_admin_balance(user_id)
@@ -630,12 +627,10 @@ def send_welcome(message):
         )
     else:
         welcome_message = (
-            f"Welcome, {username}! Developed By ᚛ @TRUSTVIP_MOD0 ᚜\n\n"
-            f"Please redeem a key to access bot functionalities.\n"
-            f"Available Commands:\n"
-            f"/redeem - To redeem key\n"
-            f"/Attack - Start an attack\n\n"
-            f"Contact ᚛ @TRUSTVIP_MOD0 ᚜ for new keys"
+            f"Welcome, {username}!\n\n"
+            f"🫶WELCOM TO TRUST VIP MOD DDOS THIS IS HIGH POWER DDOS BOT🦠\n"
+            f"👤YOU TRY THIS COMMAND /trust,/redeem\n"
+         
         )
 
     bot.send_message(message.chat.id, welcome_message, reply_markup=markup)
@@ -646,7 +641,7 @@ def genkey_command(message):
     chat_id = message.chat.id
 
     if not is_admin(user_id):
-        bot.send_message(chat_id, "*You are not authorized to generate keys.\nContact Owner: ᚛ @TRUSTVIP_MOD0 ᚜*", parse_mode='Markdown')
+        bot.send_message(chat_id, "*You are not authorized to generate keys.\arkdown')
         return
 
     cmd_parts = message.text.split()
@@ -656,12 +651,7 @@ def genkey_command(message):
             "Available units and prices:\n"
             "- hour/hours (50₹ per hour)\n"
             "- day/days (200₹ per day)\n"
-            "- week/weeks (500₹ per week)"
-        ), parse_mode='Markdown')
-        return
-    
-    try:
-        amount = int(cmd_parts[1])
+            "- week/weeks (500₹ per wee1])
         time_unit = cmd_parts[2].lower()
         
         # Normalize time unit
